@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10vh;
+  margin-top: 5vh;
+  background-color: gray;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.tabel {
+  color: #fff;
+}
+
+.nama {
+  width: 500px;
+  height: 30px;
+}
+
+.email {
+  width: 500px;
+  height: 30px;
+}
+
+.massage {
+  width: 500px;
+  height: 150px;
+}
+
+button {
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* textarea {
+  width: 41.3vh;
+  height: 100px;
+} */
